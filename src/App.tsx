@@ -1,12 +1,14 @@
 import type { Component } from "solid-js";
 
 import Logo from "./components/svgs/logo";
-import styles from "./App.module.css";
 
 const App: Component = () => {
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
+    <div>
+      <header>
+        <h1 class="text-xl font-bold text-center my-4">
+          Solid js app hosted on firebase, coming soon...
+        </h1>
         <Logo width="500" />
       </header>
     </div>
