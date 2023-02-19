@@ -5,7 +5,7 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && pnpm build-storybook --output-dir dist/storybook",
     "serve": "vite preview",
     "format-fix": "prettier --write \"**/*.{js,jsx,ts,tsx,scss,css,md,json,svg}\"",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
