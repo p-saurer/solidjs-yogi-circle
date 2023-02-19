@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# move to src directory and then run lint staged from there
+cd ./src && npx lint-staged
