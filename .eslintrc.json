@@ -1,9 +1,8 @@
 {
-  "env": { "browser": true },
-
+  "env": { "browser": true, "node": true },
   "parser": "@typescript-eslint/parser",
   "parserOptions": { "project": ["./tsconfig.json"] },
   "plugins": ["@typescript-eslint", "solid"],
-  "extends": ["eslint:recommended", "plugin:solid/typescript"],
+  "extends": ["eslint:recommended", "plugin:solid/typescript", "prettier"],
   "rules": {}
 }
