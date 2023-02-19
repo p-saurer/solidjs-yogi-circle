@@ -1,5 +1,6 @@
 node_modules
 dist
 .husky
+storybook-static
 
 pnpm-lock.yaml
