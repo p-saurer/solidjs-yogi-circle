@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-cascade-50: 246 248 249; /* #f6f8f9 */
+    --color-cascade-100: 236 241 242; /* #ecf1f2 */
+    --color-cascade-200: 214 222 225; /* #d6dee1 */
+    --color-cascade-300: 178 194 199; /* #b2c2c7 */
+    --color-cascade-400: 142 167 173; /* #8ea7ad */
+    --color-cascade-500: 105 135 142; /* #69878e */
+    --color-cascade-600: 84 110 117; /* #546e75 */
+    --color-cascade-700: 69 89 95; /* #45595f */
+    --color-cascade-800: 59 76 81; /* #3b4c51 */
+    --color-cascade-900: 53 65 69; /* #354145 */
+
+    --color-green-yellow-crayola: 247 239 153; /* #f7ef99 */
+    --color-sushi: 129 160 52; /* #81a034 */
+    --color-deep-taupe: 119 91 89; /* #775b59 */
+    --color-dark-sienna: 50 22 31; /* #32161f */
+    --color-as-black: 23 23 23; /* #171717 */
+    --color-as-white: 250 250 250; /* #fafafa */
+  }
+
+  button {
+    @apply appearance-none;
+  }
+}
