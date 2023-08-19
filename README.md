@@ -32,3 +32,10 @@ Your app is ready to be deployed!
 ## Deployment
 
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+
+### Vitest + @testing-library/jest-dom + TypeScript issues
+
+Currently we import the types separately from @types/testing-library**jest-dom because we use also @solidjs/testing-library which does not support the newest (^6.0.0) library of @testing-library/jest-dom yet.
+The version of @types/testing-library**jest-dom needs to be below 6.0.0 because in newer versions it is deprecated (as they are provided by @testing-library/jest-dom).
+
+Once @solidjs/testing-library is up to date with the newest @testing-library/jest-dom matchers, we can switch and remove the separate type definitions, and probably some setup steps.
