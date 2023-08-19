@@ -14,7 +14,7 @@ export default meta;
 export const LoggedIn = {
   args: {
     user: {
-      name: "Jane Doe",
+      displayName: "Jane Doe",
     },
   },
 };

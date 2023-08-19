@@ -2,7 +2,7 @@ import { Button } from "./Button";
 import { Meta, StoryObj } from "storybook-solidjs";
 
 const meta = {
-  title: "Component/Button",
+  title: "Components/Button",
   component: Button,
   tags: ["autodocs"],
   argTypes: {},

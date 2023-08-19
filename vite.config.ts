@@ -1,3 +1,5 @@
+/// <reference types="vite/client" />
+// 👆 do not forget to add the references above
 import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
 import { resolve } from "path";
