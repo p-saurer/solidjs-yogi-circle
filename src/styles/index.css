@@ -23,6 +23,14 @@
     --color-as-white: 250 250 250; /* #fafafa */
   }
 
+  html {
+    @apply bg-as-white;
+  }
+
+  html[data-mode="dark"] {
+    @apply bg-as-black;
+  }
+
   button {
     @apply appearance-none;
   }

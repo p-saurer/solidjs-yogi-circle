@@ -4,7 +4,7 @@ import "../src/styles/index.css";
 
 export const parameters = {
   backgrounds: {
-    default: "light",
+    default: "light", // TODO once docs consider light/dark mode depending on switch, disable background switch
   },
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
@@ -18,8 +18,8 @@ export const parameters = {
 export const decorators = [
   withThemeByDataAttribute({
     themes: {
-      "🌞 Light": "light",
-      "🌛 Dark": "dark",
+      "☀️ Light": "light",
+      "🌒 Dark": "dark",
     },
     defaultTheme: "light",
     attributeName: "data-mode",
