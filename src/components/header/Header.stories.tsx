@@ -1,4 +1,5 @@
 import { Header } from "./Header";
+import { Meta, StoryObj } from "storybook-solidjs";
 
 const meta = {
   title: "Components/Header",
@@ -7,11 +8,13 @@ const meta = {
   parameters: {
     layout: "fullscreen",
   },
-};
+} satisfies Meta<typeof Header>;
 
 export default meta;
 
-export const LoggedIn = {
+type Story = StoryObj<typeof meta>;
+
+export const LoggedIn: Story = {
   args: {
     user: {
       displayName: "Jane Doe",
